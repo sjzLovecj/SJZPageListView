@@ -49,6 +49,9 @@ import JXSegmentedView
     
     @objc optional
     func pageListView(_ tableView: UITableView, sectionData: SJZPageListSectionData, viewForFooterInSection section: Int) -> UIView?
+    
+    @objc optional
+    func pageListView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath)
 }
 
 class SJZPageListView: UIView {
@@ -57,10 +60,7 @@ class SJZPageListView: UIView {
     public var configure: SJZPageListConfigure = SJZPageListConfigure()
 
     public var categoryView: JXSegmentedView {
-        get {
-            return segmentedView
-        }
-
+        get { return segmentedView }
         set {
             segmentedView = newValue
             segmentedView.delegate = self

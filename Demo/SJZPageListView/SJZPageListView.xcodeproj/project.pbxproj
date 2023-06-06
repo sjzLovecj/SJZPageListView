@@ -7,24 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570C6A292A24A02800B6565E /* SJZPageListConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C6A232A24A02700B6565E /* SJZPageListConfigure.swift */; };
+		570C6A2A2A24A02800B6565E /* SJZPageProcessData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C6A242A24A02700B6565E /* SJZPageProcessData.swift */; };
+		570C6A2B2A24A02800B6565E /* SJZPageMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C6A252A24A02700B6565E /* SJZPageMainTableView.swift */; };
+		570C6A2C2A24A02800B6565E /* SJZPageListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C6A262A24A02700B6565E /* SJZPageListContainerView.swift */; };
+		570C6A2D2A24A02800B6565E /* SJZPageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C6A272A24A02700B6565E /* SJZPageListView.swift */; };
+		570C6A2E2A24A02800B6565E /* SJZPageListCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C6A282A24A02700B6565E /* SJZPageListCollectionView.swift */; };
+		570C6A322A24A6E200B6565E /* PageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C6A312A24A6E200B6565E /* PageListView.swift */; };
+		570C6A342A24A71700B6565E /* PageListConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C6A332A24A71700B6565E /* PageListConfigure.swift */; };
+		570C6A362A24A93000B6565E /* PageMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C6A352A24A93000B6565E /* PageMainTableView.swift */; };
+		570C6A382A24B3C800B6565E /* PageListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C6A372A24B3C800B6565E /* PageListDelegate.swift */; };
 		57199BBB270438EC0032EA68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199BBA270438EC0032EA68 /* AppDelegate.swift */; };
 		57199BBD270438EC0032EA68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199BBC270438EC0032EA68 /* SceneDelegate.swift */; };
 		57199BBF270438EC0032EA68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199BBE270438EC0032EA68 /* ViewController.swift */; };
 		57199BC2270438EC0032EA68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57199BC0270438EC0032EA68 /* Main.storyboard */; };
 		57199BC4270438F00032EA68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57199BC3270438F00032EA68 /* Assets.xcassets */; };
 		57199BC7270438F00032EA68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57199BC5270438F00032EA68 /* LaunchScreen.storyboard */; };
-		57199BD5270439130032EA68 /* SJZPageListCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199BCF270439120032EA68 /* SJZPageListCollectionView.swift */; };
-		57199BD6270439130032EA68 /* SJZPageListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199BD0270439120032EA68 /* SJZPageListView.swift */; };
-		57199BD7270439130032EA68 /* SJZPageMainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199BD1270439130032EA68 /* SJZPageMainTableView.swift */; };
-		57199BD8270439130032EA68 /* SJZPageProcessData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199BD2270439130032EA68 /* SJZPageProcessData.swift */; };
-		57199BD9270439130032EA68 /* SJZPageListContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199BD3270439130032EA68 /* SJZPageListContainerView.swift */; };
-		57199BDA270439130032EA68 /* SJZPageListConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57199BD4270439130032EA68 /* SJZPageListConfigure.swift */; };
 		B3AEB9C8826C2DB32FEC3571 /* Pods_SJZPageListView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3F7B6973BFDC0B399D3BD1 /* Pods_SJZPageListView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D3F7B6973BFDC0B399D3BD1 /* Pods_SJZPageListView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJZPageListView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FD521D045F9619845DD0015 /* Pods-SJZPageListView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJZPageListView.release.xcconfig"; path = "Target Support Files/Pods-SJZPageListView/Pods-SJZPageListView.release.xcconfig"; sourceTree = "<group>"; };
+		570C6A232A24A02700B6565E /* SJZPageListConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJZPageListConfigure.swift; sourceTree = "<group>"; };
+		570C6A242A24A02700B6565E /* SJZPageProcessData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJZPageProcessData.swift; sourceTree = "<group>"; };
+		570C6A252A24A02700B6565E /* SJZPageMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJZPageMainTableView.swift; sourceTree = "<group>"; };
+		570C6A262A24A02700B6565E /* SJZPageListContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJZPageListContainerView.swift; sourceTree = "<group>"; };
+		570C6A272A24A02700B6565E /* SJZPageListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJZPageListView.swift; sourceTree = "<group>"; };
+		570C6A282A24A02700B6565E /* SJZPageListCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJZPageListCollectionView.swift; sourceTree = "<group>"; };
+		570C6A312A24A6E200B6565E /* PageListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageListView.swift; sourceTree = "<group>"; };
+		570C6A332A24A71700B6565E /* PageListConfigure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageListConfigure.swift; sourceTree = "<group>"; };
+		570C6A352A24A93000B6565E /* PageMainTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMainTableView.swift; sourceTree = "<group>"; };
+		570C6A372A24B3C800B6565E /* PageListDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageListDelegate.swift; sourceTree = "<group>"; };
+		570C6A392A259C7800B6565E /* SJZPageListView.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SJZPageListView.entitlements; sourceTree = "<group>"; };
 		57199BB7270438EC0032EA68 /* SJZPageListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJZPageListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57199BBA270438EC0032EA68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57199BBC270438EC0032EA68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,12 +48,6 @@
 		57199BC3270438F00032EA68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57199BC6270438F00032EA68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57199BC8270438F00032EA68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		57199BCF270439120032EA68 /* SJZPageListCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJZPageListCollectionView.swift; sourceTree = "<group>"; };
-		57199BD0270439120032EA68 /* SJZPageListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJZPageListView.swift; sourceTree = "<group>"; };
-		57199BD1270439130032EA68 /* SJZPageMainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJZPageMainTableView.swift; sourceTree = "<group>"; };
-		57199BD2270439130032EA68 /* SJZPageProcessData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJZPageProcessData.swift; sourceTree = "<group>"; };
-		57199BD3270439130032EA68 /* SJZPageListContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJZPageListContainerView.swift; sourceTree = "<group>"; };
-		57199BD4270439130032EA68 /* SJZPageListConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SJZPageListConfigure.swift; sourceTree = "<group>"; };
 		E1B048AEDE6FCBE14166E4AA /* Pods-SJZPageListView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJZPageListView.debug.xcconfig"; path = "Target Support Files/Pods-SJZPageListView/Pods-SJZPageListView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,9 +63,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		570C6A212A24A02700B6565E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				570C6A222A24A02700B6565E /* PageListView */,
+			);
+			name = Sources;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
+		570C6A222A24A02700B6565E /* PageListView */ = {
+			isa = PBXGroup;
+			children = (
+				570C6A302A24A6B700B6565E /* New */,
+				570C6A232A24A02700B6565E /* SJZPageListConfigure.swift */,
+				570C6A242A24A02700B6565E /* SJZPageProcessData.swift */,
+				570C6A252A24A02700B6565E /* SJZPageMainTableView.swift */,
+				570C6A262A24A02700B6565E /* SJZPageListContainerView.swift */,
+				570C6A272A24A02700B6565E /* SJZPageListView.swift */,
+				570C6A282A24A02700B6565E /* SJZPageListCollectionView.swift */,
+			);
+			path = PageListView;
+			sourceTree = "<group>";
+		};
+		570C6A302A24A6B700B6565E /* New */ = {
+			isa = PBXGroup;
+			children = (
+				570C6A312A24A6E200B6565E /* PageListView.swift */,
+				570C6A372A24B3C800B6565E /* PageListDelegate.swift */,
+				570C6A332A24A71700B6565E /* PageListConfigure.swift */,
+				570C6A352A24A93000B6565E /* PageMainTableView.swift */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
 		57199BAE270438EC0032EA68 = {
 			isa = PBXGroup;
 			children = (
+				570C6A212A24A02700B6565E /* Sources */,
 				57199BB9270438EC0032EA68 /* SJZPageListView */,
 				57199BB8270438EC0032EA68 /* Products */,
 				BF3A9F8263C75CF44CD03B9D /* Pods */,
@@ -75,7 +119,7 @@
 		57199BB9270438EC0032EA68 /* SJZPageListView */ = {
 			isa = PBXGroup;
 			children = (
-				57199BCE270438F90032EA68 /* Class */,
+				570C6A392A259C7800B6565E /* SJZPageListView.entitlements */,
 				57199BBA270438EC0032EA68 /* AppDelegate.swift */,
 				57199BBC270438EC0032EA68 /* SceneDelegate.swift */,
 				57199BBE270438EC0032EA68 /* ViewController.swift */,
@@ -85,19 +129,6 @@
 				57199BC8270438F00032EA68 /* Info.plist */,
 			);
 			path = SJZPageListView;
-			sourceTree = "<group>";
-		};
-		57199BCE270438F90032EA68 /* Class */ = {
-			isa = PBXGroup;
-			children = (
-				57199BCF270439120032EA68 /* SJZPageListCollectionView.swift */,
-				57199BD4270439130032EA68 /* SJZPageListConfigure.swift */,
-				57199BD3270439130032EA68 /* SJZPageListContainerView.swift */,
-				57199BD0270439120032EA68 /* SJZPageListView.swift */,
-				57199BD1270439130032EA68 /* SJZPageMainTableView.swift */,
-				57199BD2270439130032EA68 /* SJZPageProcessData.swift */,
-			);
-			path = Class;
 			sourceTree = "<group>";
 		};
 		BF3A9F8263C75CF44CD03B9D /* Pods */ = {
@@ -232,15 +263,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				570C6A342A24A71700B6565E /* PageListConfigure.swift in Sources */,
 				57199BBF270438EC0032EA68 /* ViewController.swift in Sources */,
-				57199BD9270439130032EA68 /* SJZPageListContainerView.swift in Sources */,
+				570C6A2C2A24A02800B6565E /* SJZPageListContainerView.swift in Sources */,
+				570C6A362A24A93000B6565E /* PageMainTableView.swift in Sources */,
+				570C6A2E2A24A02800B6565E /* SJZPageListCollectionView.swift in Sources */,
+				570C6A382A24B3C800B6565E /* PageListDelegate.swift in Sources */,
 				57199BBB270438EC0032EA68 /* AppDelegate.swift in Sources */,
+				570C6A2D2A24A02800B6565E /* SJZPageListView.swift in Sources */,
+				570C6A322A24A6E200B6565E /* PageListView.swift in Sources */,
 				57199BBD270438EC0032EA68 /* SceneDelegate.swift in Sources */,
-				57199BD7270439130032EA68 /* SJZPageMainTableView.swift in Sources */,
-				57199BDA270439130032EA68 /* SJZPageListConfigure.swift in Sources */,
-				57199BD5270439130032EA68 /* SJZPageListCollectionView.swift in Sources */,
-				57199BD6270439130032EA68 /* SJZPageListView.swift in Sources */,
-				57199BD8270439130032EA68 /* SJZPageProcessData.swift in Sources */,
+				570C6A2B2A24A02800B6565E /* SJZPageMainTableView.swift in Sources */,
+				570C6A2A2A24A02800B6565E /* SJZPageProcessData.swift in Sources */,
+				570C6A292A24A02800B6565E /* SJZPageListConfigure.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SJZPageListView/SJZPageListView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U95EEA546;
@@ -398,7 +434,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -406,9 +442,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sjz.SJZPageListView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -418,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SJZPageListView/SJZPageListView.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6U95EEA546;
@@ -428,7 +468,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,9 +476,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sjz.SJZPageListView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
